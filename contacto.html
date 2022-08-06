@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./img/conejo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+   <!--BARRA DE NAVEGACIÓN-->
+   <header>
+    <div class="grid_padreindex">
+
+        <div class="logoindex">
+            <picture>
+                <img class="logo" src="./img/Madoka.jpg" alt="">
+            </picture>
+        </div>
+
+
+        <div class="headerindex">
+           
+                <nav class="menuSuperior">
+                    <ul class="header__navbar">
+                        <li class="menu__item"><a class="link" href="index.html">Inicio</a> </li>
+                        <li class="menu__item"><a class=¨link¨ href="ilustraciones.html">Ilustraciones </a> </li>
+                        <li class="menu__item"><a class="link" href="sobre mi.html"> Sobre mi</a> </li>
+                        <li class="menu__item"><a class="link" href="comisiones.html"> Comisiones</a> </li>
+                        <li class="menu__item"><a class="link" href="contacto.html">Contacto</a> </li>
+                    </ul>
+                </nav>
+           
+        </div>
+
+    </header>
+    
+
+
+
+
+
+    <!--aqui va la seccion contacto-->
+    <main>
+
+
+         
+            <!--aqui va el formulario para la secc contacto-->
+            <section class="mb-4">
+
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contacteme</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Si desea comisionarme o contrarme para un proyecto o para participar en una colaboración comunicese conmigo por este medio</p>
+            
+                <div class="row">
+            
+                    <!--Grid column-->
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            
+                            <!--Grid row-->
+                            <div class="row">
+            
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Tu nombre</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+            
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Su e-mail</label>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+            
+                            </div>
+                            <!--Grid row-->
+            
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="asunto" name="asunto" class="form-control">
+                                        <label for="asunto" class="">Asunto</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+            
+                            <!--Grid row-->
+                            <div class="row">
+            
+                                <!--Grid column-->
+                                <div class="col-md-12">
+            
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="message">Tu mensaje</label>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <!--Grid row-->
+            
+                        </form>
+            
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+            
+            
+                </div>
+
+            </main>
+
+    <!--aqui va footer-->
+
+    <footer class="footer">
+        <div class="footerindex">
+        <div class="footer__flex">
+
+            
+            <ul class="footer__menu">
+                
+                <li><a href="index.html">Inicio</a> </li>
+                <li><a href="ilustraciones.html">Ilustraciones</a> </li>
+                <li><a href="sobre mi.html">Sobre mi</a> </li>
+                <li><a href="comisiones.html">Comisiones</a> </li>
+                <li><a href="contacto.html">Contacto</a> </li>
+
+
+
+        </div>
+        <div class="footer__creditos">
+            Desarrollado por Victoria Tajch
+        </div>
+
+    </footer>
+
+
+</body>
+
+
+</html>
